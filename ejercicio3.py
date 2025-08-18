@@ -18,6 +18,15 @@ for i in range(1,numero+1):
 
 print("\nPrograma finalizado.")
 
+# i | numero
+#------------
+# 1 | 4
+# 2 |
+
+# forma de evaluar manualmente 
+
+
+
 
 
 
