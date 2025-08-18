@@ -1,6 +1,5 @@
 """
-Desarrolle un programa que permita ingresar 3 numeros
-y desplegar el mayor
+Desarrolle un programa que permita ingresar 3 numeros y desplegar el mayor
 
 - sin ciclos, sin listas...
 """
