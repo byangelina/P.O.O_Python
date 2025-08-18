@@ -21,7 +21,7 @@ while True:
 # versión mejorada del código:
 # el cliente no sabe de gramos
 # 1000 gramos son un kilo
-# en ves de decir "necesitas 1000 gramos", decir "necesitas 1 kilo"
+# en ves de decir "necesitas 1000 gramos", decir "necesitas 1 kilo de..." o "1,2 kilos...", etc.
 
 
 gramos = 1000
@@ -34,9 +34,7 @@ d = 300
 
 s = 100
 
-respuesta = kilo * cantidad_k  
 
-print(f"necesitas {respuesta}")
 
 """Detergente = 300
 suavizante = 100
