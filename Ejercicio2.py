@@ -1,48 +1,48 @@
 
-
-# Determinar sueldo de un empleado
-
-# si el empleado gana sobre 400 mil, su hora normal cuesta 6.000 y su hora extra es 6000 + 50% - 2% de su sueldo.
-# si el empleado gana bajo 400 mil, su hora extra cuesta 3.000.
-
-# - s_ingreasdo  = sueldo ingresado 
-# - h_trabajadas = horas trabajadas 
-# - pregunta_h_e = pregunta horas extra
-# - sueldo_final = s_ingresado + cantidad_h_e (h_n * h_trabajadas)
-
-# - h_n = hora normal
-# - cantidad_h_e = cantidad de horas extra
-# - sueldo_sobre_400 = si el trabajador gana mas de 400.000
-# - sueldo_bajo_400 = si el trabajador gana menos de 400.000
-
-"""
-La empresa Sitomanboy necesita determinar el sueldo de un empleado, 
-considerando que el valor hora normal es $6.000.- Pesos, la hora extra es un 
-50% mas que la hora normal, existe una cuota del sindicato que depende del 
-sueldo, si es mayor a de 400 Mil se descuenta un 2% del sueldo, de lo contrario 
-un valor fijo es de $3.000 Pesos.
-Desarrolle el programa que determine el sueldo total de un empleado
-"""
+# listas: mutables []
+# tuplas: imutables {}
+# prox. clase: investigar listas y métodos de listas, diferentes ejercicios.
 
 
-sueldo_base = int(input("\nIngrese su sueldo: "))
 
-pregunta_h_e = str(input("\n¿Realizó horas extra? (s/n): "))
 
-if pregunta_h_e != "n":
+# realice un programa que le pida al usuario que le solicite al usuario cuantos numero primos desea desplegar por pantalla
+# el sistema desplegara la cantidad partiendo por el numero 1
 
-    cantidad_h_e = int(input("\n¿Cuántas horas extra realizó?: "))
+# la funcions se debe llamar cantidadPrimos(c) recibe un argumento c y retorna un String:
 
-    h_n = 6000
+# def cantidadPrimos(c)
+#   return "texto"
 
-    if sueldo_base >= 400000:
-        sueldo_final = (sueldo_base + cantidad_h_e * (1.5 * h_n)) * 0.98
-        print(f"\ntu sueldo final es: {sueldo_final:.0f}")
+inputCantidadPrimos = int(input("Ingrese cuántos número primos desea desplegar por pantalla: "))
+
+def esPrimo(n):
+    contarDivisores = 0
+    for x in range(1, n + 1, 1):
+        if n % x == 0:
+            contarDivisores = contarDivisores + 1
+
+    if contarDivisores == 2:
+        return True
     else:
-        sueldo_final = sueldo_base + cantidad_h_e *  (1.5 * h_n) - 3000
-        print(f"\ntu sueldo final es: {sueldo_final:.0f}") # :.0f elimina los decimales al final de la cifra
+        return False
 
-else: 
-    print(f"\nSu sueldo es: {sueldo_base:.0f}\n")
+def cantidadPrimos(c):
+    if c == esPrimo:
+        inputCantidadPrimos == c +1
+        inputCantidadPrimos = str
 
-print("Programa finalizado")
+    else:
+        inputCantidadPrimos == c +1
+        inputCantidadPrimos = str
+
+if inputCantidadPrimos(c):
+    print("a")
+else:
+    print("b")
+
+
+# resolver antes de las 12 de la noche
+
+
+
