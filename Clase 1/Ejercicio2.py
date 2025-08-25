@@ -9,16 +9,17 @@ Ejemplo: el usuario ingresa un "10".
 12345
 """
 
-numero_ingresado = input(int("Ingrese un número: "))
+# desarrollo
 
-num = 0
+numero_ingresado = int(input("Ingrese un número: "))
+num = 0 # parte desde 0
 
-for i in range (10):
-    if num >= numero_ingresado:
-        num += 1
-    break
+for i in range (1, numero_ingresado + 1):
+    linea = ""
 
-
+    for piramide in range(1, i + 1):
+        linea += str(piramide)
+    print(linea)
 
 
 
