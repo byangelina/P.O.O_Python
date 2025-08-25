@@ -1,23 +1,26 @@
 
+# primer ejercicio / desarrollo profe
 
-# primer ejercicio
-print("Programa para seleccionar el número mayor de varios números")
+print("Programa para seleccionar el número mayor de varios números\n")
 
-numeromayor = 0
-x = 0
+numero_mayor = 0
+primer_numero = True
 
 while True:
-    numeroinput = int(input("Ingrese un número( 0 para terminar): "))
-    if numeroinput == 0:
+    numero_input = int(input("Ingrese un número (0 para terminar): "))
+    
+    if numero_input == 0:
         break
+
     if primer_numero:
-        numeromayor = numeroinput
+        numero_mayor = numero_input
         primer_numero = False
+
     else:
-        if numeroinput > numeromayor:
-            numeromayor = numeroinput
+        if numero_input > numero_mayor:
+            numero_mayor = numero_input
 
 
-# esto fue un ejemplo y esta incompleto
+print(f"\nEl número mayor ingresado es: {numero_mayor}\n")
 
 
