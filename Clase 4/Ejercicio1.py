@@ -33,7 +33,6 @@ else:
     print("El número ingresado es impar")
 
 
-
 # desarrollo profe, con booleanos:
 """
 def es_par(n):
@@ -50,15 +49,3 @@ else:
     print("Enviar correo al usuario que no es par")
     
 """
-
-
-
-
-
-
-
-
-
-
-
-
