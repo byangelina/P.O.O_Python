@@ -4,13 +4,12 @@ Desarrolle un programa que permita ingresar 10 numeros y despliegue el mayor.
 Restriccion: no puede usar listas, funcion max, no chatgpt.
 """
 
-num = 0
+# Pedimos el primer número antes del bucle para tener un valor inicial válido
+num = int(input("Ingrese un número: "))
 
-for i in range (1,11):
+for i in range(9):  # ya pedimos 1, faltan 9
     numero_ingresado = int(input("Ingrese un número: "))   
-    if num >= numero_ingresado:
-        num += 1
-        break
+    if numero_ingresado > num:
+        num = numero_ingresado
 
-print(f"el número mayor es: {i} ")
-
+print(f"El número mayor es: {num}")
