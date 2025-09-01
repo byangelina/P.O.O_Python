@@ -1,0 +1,1 @@
+"""III.	Desarrolle un programa que agregue 10 notas en una lista, solo debe permitir notas del 1 a 7, al finalizar los 10 elementos desplegar el promedio y eliminar de la lista las notas bajo el promedio."""
