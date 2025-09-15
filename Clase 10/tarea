@@ -1,0 +1,6 @@
+# Crear dos objetos pero que uno herede del otro y tener sus propias características. 
+# Ejemplo: diferentes tipos de guitarra o instrumentos de cuerda, uno fue heredado de otro, algunos tienen atributos únicos y otros se repiten.
+# Deben tener una relación de atributos
+# Atributos propios, métodos, diferentes objetos.
+
+# Elegir una clase, un objeto y avisar por wsp.
