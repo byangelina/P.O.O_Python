@@ -1,6 +1,7 @@
 """
 crear 1 clase que herede de otra, la super clase debe tener sus atributos y métodos,
 la clase hija debe considerar sus propios atributos y métodos, no se permiten 2 modelos iguales.
+agregar get y set, atributos privados que no se pueden cambiar.
 
 """
 
