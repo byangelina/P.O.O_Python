@@ -1,0 +1,1 @@
+# porx clase: hacer un diagrama de clases con herencias, bodega / productos.
